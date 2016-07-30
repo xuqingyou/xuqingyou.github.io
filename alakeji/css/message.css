@@ -1,0 +1,160 @@
+.big_img {
+    width: 100%;
+    height: 330px;
+    background: url(../imgs/liuyanbanbanner.png) no-repeat center;
+    background-size: cover;
+}
+.wrap {
+    width: 100%;
+    background-color: #f2f2f2;
+
+}
+.contain {
+    width: 1024px;
+    margin: 0 auto;
+}
+.big_title {
+    padding: 30px 0;
+}
+.big_title h2 {
+    background-color: #e95400;
+    color: white;
+    text-align: center;
+    width: 150px;
+    line-height: 50px;
+}
+
+.contain section {
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    display: block;
+    transition: all 0.2s ease-out 0s;
+
+}
+.msg_from {
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-top: 2px solid #e95400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ahover:hover {
+    box-shadow:0 5px 10px rgba(45, 50, 55, 0.2);
+    margin-bottom:32px;
+    margin-top:-2px;
+}
+
+
+
+.msg_info {
+    margin-bottom: 10px;
+}
+.msg_info img {
+    float: left;
+}
+.msg_info span {
+    display: inline-block;
+    line-height: 26px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #0470cb;
+
+}
+section p {
+    text-indent: 37px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555656;
+    margin: 0 0 10px
+}
+section p:nth-child(4) {
+    color: #ffb503
+}
+.btn_more {
+    padding: 0 0 40px 0;
+    text-align: center;
+}
+.btn_more button {
+    color: #e95400;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 8px 40px;
+    border: 1px solid #e95400;
+    border-radius: 10px;
+}
+.msg_fro {
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-top: 2px solid #e95400;
+}
+.massage {
+    font-size: 18px;
+    color: #4d4d4b;
+    margin-bottom: 20px;
+}
+label {
+    margin-right: 10px;
+}
+.liuyan {
+    margin-top: 35px;
+}
+.liuyan span {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+.liuyan input {
+    margin-left: 20px;
+    padding: 5px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.text span {
+    float: left;
+}
+textarea {
+    margin-left: 20px;
+    padding: 5px;
+    width: 400px;
+    font-size: 16px;
+    resize: none
+}
+.tj_btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tj_btn button {
+    outline: none;
+    background: none;
+    display: inline-block;
+    width: 100px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #d2cfcf;
+    margin-right: 15px;
+}
+.tj_btn button:nth-child(2) {
+    margin-left: 25px;
+}

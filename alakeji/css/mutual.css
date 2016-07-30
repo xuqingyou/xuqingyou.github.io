@@ -1,0 +1,124 @@
+header {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #dedcdc;
+    position: relative;
+}
+.header_contain {
+    /*width: 80%;*/
+    width: 1024px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo {
+    width: 220px;
+    background: url(../imgs/logo.png) no-repeat;
+    float: left;
+    height: 73px;
+    margin: 12px 10px;
+}
+.header_contain ul {
+    margin-bottom: 0px !important;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.header_contain ul li {
+    float: right;
+    width: 110px;
+    line-height: 97px;
+    text-align: center;
+    position: relative;
+}
+.header_contain ul li:hover{
+	background:url(../imgs/menu_bg.png) no-repeat;
+}
+.header_contain ul li a {
+    font-size: 18px;
+    color: #4c4c4c;
+}
+.header_contain ul li:hover a{
+	color:#f79826;
+}
+.news p{
+    line-height: 38px;
+    color: white;
+}
+.header_contain ul li .news p a{
+    color: white;
+}
+.news {
+    width: 109px;
+    background-color: #F93;
+    z-index: 99;
+    position: absolute;
+}
+.company_new {
+    display: none;
+
+}
+.we_news {
+    display: none;
+}
+.header_contain ul li:hover .we_news{
+	display: block;
+}
+.header_contain ul li:hover .company_new{
+	display: block;
+}
+.news p:hover{
+
+    background:url(../imgs/menu_bg.png) no-repeat;
+}
+.header_contain ul li .news p:hover a {
+	color: #4c4c4c;
+}
+
+
+footer {
+    width: 100%;
+    height: 165px;
+    background-color: #1c1c1c;
+    border-top: 5px solid #5b1d49
+}
+footer .boottom_box {
+    width: 1024px;
+    height: 160px;
+    margin: 0 auto;
+}
+.footer_left {
+    width: 260px;
+    float: left;
+    margin-top: 27px;
+}
+.footer_left p {
+    color: #c0bebe;
+    font-size: 16px;
+    margin-top: 14px;
+    text-indent: 8px;
+}
+.middle_box {
+    float: left;
+    margin-left: 13px;
+    margin-top: 44px;
+    width: 530px;
+}
+.middle_box p {
+    color: #afb1b2;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.right_box {
+    width: 110px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: 17px;
+    float: right;
+}
+.right_box p {
+    font-size: 16px;
+    color: #afb1b2;
+    text-align: center;
+    line-height: 30px;
+}
